@@ -1,0 +1,90 @@
+body {
+	padding-top: 70px; 
+}
+
+.font-big{
+	font-size: 1.6em;
+}
+
+.navbar-logo {
+    padding: 0px;
+}
+.navbar-logo>img {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+  
+    height: 60px;
+    padding: 15px;
+    width: auto;
+}
+
+.no-padding{
+	width: 100%;
+	padding: 0;
+}
+
+.side-padding-zero{
+	padding-right: 0;
+	padding-left: 0;
+}
+
+.no-vertical-padding{
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+.panel-title{
+	font-size: 25px;
+}
+
+.no-rounded-corner{
+	border-radius: 0 !important;
+}
+
+.display-inline{
+	display: block;
+}
+
+.top-align{
+	vertical-align: top;
+}
+
+.underlined{
+	text-decoration: underline;
+}
+
+.chart-container {
+    max-height:300px;
+    max-width: 300px;
+}
+
+
+.vertical-center {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.tipo-valor{
+}
+
+.tipo-etiqueta{
+    
+}
+
+.btn-eliminar-pregunta{
+    
+}
+
+.enc-eliminar{
+    
+}
+
+.btn-eliminar-encuesta{
+    
+}
+
+.btn-vaciar-encuesta{
+    
+}

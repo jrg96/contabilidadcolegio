@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Starter Template for Bootstrap</title>
+        <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">SIC-115</a>
+                </div>
+                <div id="navbar" class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="index.html">Inicio</a></li>
+                        <li><a href="contabilidad_general.html">Contabilidad General</a></li>
+                        <li><a href="#contact">Contabilidad de costos</a></li>
+                    </ul>
+                </div><!--/.nav-collapse -->
+            </div>
+        </nav>
+
+        <div class="container">
+            <br />
+            <br />
+            <br />
+            <div class="panel panel-danger">
+                <div class="panel-heading">Periodo contable</div>
+                <div class="panel-body">
+                    Advertencia: despues de cerrado el periodo contable, este no puede abrirse de nuevo,
+                    asegurarse que la informacion de los estados financieros sea la correcta antes de cerrar
+                    periodo contable.
+                </div>
+            </div>
+            
+            <div class="panel panel-primary">
+                <div class="panel-heading">Balance de comprobacion con ajustes</div>
+                <div class="panel-body">
+                
+                
+                    <div class="table-responsive">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th rowspan="2"><center>nombre de cuenta</center></th>
+                                    <th colspan="2"><center>Valores sin ajuste</center></th>
+                                    <th colspan="2"><center>Ajustes</center></th>
+                                    <th colspan="2"><center>Valores ajustados</center></th>
+                                </tr>
+                                <tr>
+                                    <th><center>Debe</center></th>
+                                    <th><center>Haber</center></th>
+                                    <th><center>Debe</center></th>
+                                    <th><center>Haber</center></th>
+                                    <th><center>Debe</center></th>
+                                    <th><center>Haber</center></th>
+                                </tr>
+                            </thead>
+                            
+                            <tbody>
+                                <tr>
+                                    <th><center>Documentos por pagar (P)</center></th>
+                                    <th><center>123.23</center></th>
+                                    <th><center>123.23</center></th>
+                                    <th><center>123.23</center></th>
+                                    <th><center>123.23</center></th>
+                                    <th><center>123.23</center></th>
+                                    <th><center>123.23</center></th>
+                                </tr>
+                                <tr>
+                                    <th><center>Caja (A)</center></th>
+                                    <th><center>123.23</center></th>
+                                    <th><center>123.23</center></th>
+                                    <th><center>123.23</center></th>
+                                    <th><center>123.23</center></th>
+                                    <th><center>123.23</center></th>
+                                    <th><center>123.23</center></th>
+                                </tr>
+                            </tbody>
+                            
+                            <tfoot>
+                                <tr>
+                                    <th><center>Total</center></th>
+                                    <th><center>999.99</center></th>
+                                    <th><center>999.99</center></th>
+                                    <th><center>999.99</center></th>
+                                    <th><center>999.99</center></th>
+                                    <th><center>999.99</center></th>
+                                    <th><center>999.99</center></th>
+                                </tr>
+                            </tfoot>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-primary">
+                <div class="panel-heading">Estado de resultado</div>
+                <div class="panel-body">
+                    <div class="table-responsive">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th><center>Nombre de cuenta</center></th>
+                                    <th><center>Ingreso</center></th>
+                                    <th><center>Egreso</center></th>
+                                </tr>
+                            </thead>
+                            
+                            <tbody>
+                                <tr>
+                                    <th><center>Ingresos por colegiatura (R)</center></th>
+                                    <th><center>155.24</center></th>
+                                    <th><center></center></th>
+                                </tr>
+                                <tr>
+                                    <th><center>Gastos por salarios (R)</center></th>
+                                    <th><center></center></th>
+                                    <th><center>255.55</center></th>
+                                </tr>
+                            </tbody>
+                            
+                            <tfoot>
+                                <tr>
+                                    <th><center>Total</center></th>
+                                    <th><center></center></th>
+                                    <th><center>123.23</center></th>
+                                </tr>
+                            </tfoot>
+                        </table>
+                    </div>
+                    
+                    <h4>Estado: Ganancia/perdida</h4>
+                </div>
+            </div>
+            
+            <div class="panel panel-primary">
+                <div class="panel-heading">Estado de capital</div>
+                <div class="panel-body">
+                    <h4>Ya que se presentaron ganancias, la utilidad invertida es del 60%</h4>
+                    <br />
+                    
+                    <div class="table-responsive">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th><center>Nombre de la cuenta</center></th>
+                                    <th><center>Inversiones</center></th>
+                                    <th><center>Desinversiones</center></th>
+                                </tr>
+                            </thead>
+                            
+                            <tbody>
+                                <tr>
+                                    <th><center>Capital colegio (K)</center></th>
+                                    <th><center>128.33</center></th>
+                                    <th><center></center></th>
+                                </tr>
+                                <tr>
+                                    <th><center>Capital retiro personal (K)</center></th>
+                                    <th><center></center></th>
+                                    <th><center>22.22</center></th>
+                                </tr>
+                                <tr>
+                                    <th><center>Utilidad invertida (60%)</center></th>
+                                    <th><center>55.23</center></th>
+                                    <th><center></center></th>
+                                </tr>
+                            </tbody>
+                            
+                            <tfoot>
+                                <tr>
+                                    <th><center>Total (Capital contable)</center></th>
+                                    <th><center>123.54</center></th>
+                                    <th><center></center></th>
+                                </tr>
+                            </tfoot>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-primary">
+                <div class="panel-heading">Balance general</div>
+                <div class="panel-body">
+                    <h4>Ya que se presentaron ganancias, la utilidad retenida es del 40%</h4>
+                    <br />
+                    
+                    <div class="table-responsive">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th><center>Nombre de la cuenta</center></th>
+                                    <th><center>Debe</center></th>
+                                    <th><center>Haber</center></th>
+                                </tr>
+                            </thead>
+                            
+                            <tbody>
+                                <tr>
+                                    <th><center>Caja (A)</center></th>
+                                    <th><center>128.33</center></th>
+                                    <th><center></center></th>
+                                </tr>
+                                <tr>
+                                    <th><center>Capital contable</center></th>
+                                    <th><center></center></th>
+                                    <th><center>22.22</center></th>
+                                </tr>
+                                <tr>
+                                    <th><center>Utilidad retenida (40%)</center></th>
+                                    <th><center>55.23</center></th>
+                                    <th><center></center></th>
+                                </tr>
+                            </tbody>
+                            
+                            <tfoot>
+                                <tr>
+                                    <th><center>Total</center></th>
+                                    <th><center>123.54</center></th>
+                                    <th><center>123.54</center></th>
+                                </tr>
+                            </tfoot>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-danger">
+                <div class="panel-heading">Cerrar periodo contable</div>
+                <div class="panel-body">
+                    <button type="submit" class="btn btn-success">Confirmar cierre del periodo contable</button>
+                </div>
+            </div>
+            
+        </div>
+
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+    </body>
+</html>

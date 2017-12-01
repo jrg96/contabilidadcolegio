@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Editar/Eliminar cuenta</title>
+        <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">SIC-115</a>
+                </div>
+                <div id="navbar" class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="index.html">Inicio</a></li>
+                        <li><a href="contabilidad_general.html">Contabilidad General</a></li>
+                        <li><a href="#contact">Contabilidad de costos</a></li>
+                    </ul>
+                </div><!--/.nav-collapse -->
+            </div>
+        </nav>
+
+        <div class="container">
+            <br />
+            <br />
+            <br />
+            
+            <form>
+                <div class="panel panel-primary">
+                    <div class="panel-heading">Crear cuenta</div>
+                    <div class="panel-body">
+                        
+                        <div class="form-group">
+                            <label for="usr">Cuenta a modificar:</label>
+                            <select class="form-control" id="sel1">
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                            </select>
+                        </div>
+                    
+                        <div class="form-group">
+                            <label for="usr">Nombre de cuenta:</label>
+                            <input type="text" class="form-control" id="usr">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="sel1">Clase de cuenta:</label>
+                            <select class="form-control" id="sel1">
+                                <option>Activo  (A)</option>
+                                <option>Pasivo  (P)</option>
+                                <option>Capital (K)</option>
+                                <option>Ingreso (R)</option>
+                                <option>Egreso  (R)</option>
+                            </select>
+                        </div> 
+                        
+                        <div class="form-group">
+                            <label for="sel1">Grupo de cuenta:</label>
+                            <select class="form-control" id="sel1">
+                                <option>Circulante  (C)</option>
+                                <option>No Circulante (NC)</option>
+                            </select>
+                        </div> 
+                        
+                        <div class="form-group">
+                            <label for="sel1">Es una cuenta detalle de:</label>
+                            <select class="form-control" id="sel1">
+                                <option>Ninguna</option>
+                                <option>Caja (A)</option>
+                                <option>Documentos por pagar (P)</option>
+                            </select>
+                        </div> 
+                        
+                        <div class="form-group">
+                            <label for="sel1">Atributo especial:</label>
+                            <div class="checkbox">
+                                <label><input type="checkbox" value="">Cuenta Contraactivo (CA)</label>
+                            </div>
+                            <div class="checkbox">
+                                <label><input type="checkbox" value="">Cuenta desinversion</label>
+                            </div>
+                        </div> 
+                        
+                        <button type="submit" class="btn btn-success">Actualizar</button>
+                        <button type="submit" class="btn btn-warning">Eliminar cuenta</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+    </body>
+</html>

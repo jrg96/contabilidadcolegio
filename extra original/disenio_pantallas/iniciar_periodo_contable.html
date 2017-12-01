@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Starter Template for Bootstrap</title>
+        <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">SIC-115</a>
+                </div>
+                <div id="navbar" class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#">Inicio</a></li>
+                        <li><a href="#about">Contabilidad General</a></li>
+                        <li><a href="#contact">Contabilidad de costos</a></li>
+                    </ul>
+                </div><!--/.nav-collapse -->
+            </div>
+        </nav>
+
+        <div class="container">
+            <br />
+            <br />
+            <br />
+            
+            <form action="/sic115/index.php/configuracion/procesar" method="POST">
+            <div class="starter-template">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">Iniciar periodo contable</div>
+                    <div class="panel-body">
+                        <label for="usr">Fecha inicio (dia/mes/año):</label>
+                        <input type="text" class="form-control" id="usr">
+                    
+                        <br />
+                    
+                        <label for="usr">Duracion del periodo contable (meses):</label>
+                        <input type="text" class="form-control" id="usr" value="2" disabled>
+                        
+                        <br />
+                        
+                        <button type="submit" class="btn btn-success">Crear periodo contable</input>
+                    </div>
+                </div>
+            </div>
+            </form>
+        </div>
+
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+    </body>
+</html>
